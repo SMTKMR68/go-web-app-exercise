@@ -1,0 +1,9 @@
+{{define "title"}}Home{{end}}
+
+{{define "main"}}
+<h3>This is rendered in home.tmpl</h3>
+<code>and</code>
+<h4>Access in base.tmpl by { {template "main" .} }
+<h2>Latest Snippets</h2>
+<p>There's nothing to see here yet!</p>
+{{end}}
